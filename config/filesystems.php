@@ -43,7 +43,6 @@ return [
             'visibility' => 'public',
             'throw' => false,
         ],
-
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -54,6 +53,18 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
             'throw' => false,
+        ],
+        'ftp' => [
+            'driver' => 'ftp',
+            'host' =>   '127.0.0.1',
+            'username' => 'videosftp',
+            'password' => 'ojeKHZz1UtHjkfq2',
+            // Optional FTP Settings...
+            //'port' => env('FTP_PORT', 21),
+            //'root' => "/",
+            //'passive' => true,
+            //'ssl' => false,
+            'timeout' => 30,
         ],
 
     ],

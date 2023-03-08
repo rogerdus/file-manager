@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="{{ asset('vendor/file-manager/css/file-manager.css') }}" rel="stylesheet">
 </head>
-<body>ficheros
+<body>
 <div class="container">
     <h2>FGJEM | File Manager  </h2>
     <div class="row">
