@@ -57,8 +57,8 @@ return [
         'ftp' => [
             'driver' => 'ftp',
             'host' =>   '127.0.0.1',
-            'username' => 'videosftp',
-            'password' => 'ojeKHZz1UtHjkfq2',
+            'username' => 'userftp',
+            'password' => 'Soporte01',
             // Optional FTP Settings...
             //'port' => env('FTP_PORT', 21),
             //'root' => "/",
