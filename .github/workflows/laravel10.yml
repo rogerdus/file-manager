@@ -35,7 +35,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/laravel10:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/file-manager:latest
 
       - name: Check for build failures (optional)
         uses: actions/github-script@v6  # Latest recommended version
