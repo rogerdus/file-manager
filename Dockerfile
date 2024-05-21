@@ -1,8 +1,7 @@
 # CARGAMOS IMAGEN DE PHP MODO ALPINE SUPER REDUCIDA
 FROM elrincondeisma/octane:latest
 
-RUN curl -sS https://getcomposer.org/installer | php -- \
-     --install-dir=/usr/local/bin --filename=composer
+RUN curl -sS https://getcomposer.org/installer | php --  --install-dir=/usr/local/bin --filename=composer
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 COPY --from=spiralscout/roadrunner:2.4.2 /usr/bin/rr /usr/bin/rr
